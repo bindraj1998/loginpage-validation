@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        #input{
+            margin-top: 20px;
+              width: 97%;
+              height: 30px;
+        }
+        #body{
+           
+            width: 30%;
+            margin: auto;
+            margin-top: 80px;
+           
+        }
+        p{
+           margin-left: 120px; 
+        }
+        button{
+            background-color: blueviolet;
+            color: white;
+            width: 100%;
+            margin-top: 20px;
+        }
+        
+       
+    </style>
+</head>
+<body id="body">
+    <div ><p>Sign In</p></div>
+      
+    <form action="/login" method="POST">
+  
+      <input id="input" type="email" placeholder="email*" name="email"/>
+      <br/>
+  
+       <input id="input" type="password" placeholder="password" name="password"/>
+      <button type="submit">SIGN IN </button>
+    </form>
+    <a href="/signup">Don't have account ? signup </a>
+</body>
+</html>
